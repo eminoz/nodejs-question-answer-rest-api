@@ -1,0 +1,36 @@
+{
+  "name": "question-answer-rest-tutorials",
+  "version": "1.0.0",
+  "description": "Question-Answer rest api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js",
+    "import": "node dummy-generator --import",
+    "delete": "node dummy-generator --delete"
+  },
+  "keywords": [
+    "express",
+    "rest",
+    "api"
+  ],
+  "author": "Mehmet Emin Oz",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "express-session": "^1.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.6",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.6",
+    "slugify": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
